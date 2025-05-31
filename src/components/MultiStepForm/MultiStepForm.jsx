@@ -7,7 +7,7 @@ const Step1Form = lazy(() => import('../Stepper/Step1Form'));
 const Step2Form = lazy(() => import('../Stepper/Step2Form'));
 const Step3Form = lazy(() => import('../Stepper/Step3Form'));
 const Step4Form = lazy(() => import('../Stepper/Step4Form'));
-const DataTable = lazy(() => import('../DataTable'));
+const DataTable = lazy(() => import('../DataTable/DataTable'));
 
 const INITIAL_FORM_DATA = {
   fullName: '',
